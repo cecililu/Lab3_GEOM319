@@ -29,7 +29,7 @@ class Customers{
     public Customers(){
        customerId=nextID;
        nextID++;
-       numberOfCustomers++;
+       numberOfCustomers++; 
         }
     //constructor with all the argument    
     public Customers(String name,float principal,float time){
@@ -59,6 +59,7 @@ class Customers{
     }
     public static int getNumberOfCustomers(){
         return numberOfCustomers;
+    }
 
     
     public float getInterest(){
