@@ -6,7 +6,7 @@
       int customerId=cu1.getid();
       float principal=cu1.getprincipal();
       System.out.print(customerId+"                 "  +  name +"             "   +   principal+"         "  + interest + "     Niumber"+Customers.getNumberOfCustomers() );
-
+      Customers cu2=new Customers(600000, 10);
   }
 }
 
